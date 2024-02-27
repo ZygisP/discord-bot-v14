@@ -6,6 +6,7 @@ const fs = require('fs');
 
 const client = new Client({ intents: GatewayIntentBits.Guilds });
 client.commands = new Collection();
+client.buttons = new Collection();
 client.commandArray = [];
 
 client.commands = new Collection();
@@ -19,4 +20,5 @@ for (const folder of functionsFolders)
 
 client.handleEvents();
 client.handleCommands();
+client.handleComponents();
 client.login(token);
