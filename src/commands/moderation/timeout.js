@@ -19,7 +19,7 @@ module.exports = {
         await member.timeout(time == null ? null : time * 60 * 1000, reason).catch(console.error);
 
         await interaction.reply({
-            content: `Timed out: ${user.tag} for ${time} minutes`,
+            content: `Timed out: ${user.tag} for ${time} minutes\nhttps://images-ext-1.discordapp.net/external/uPzv3al512zOw-5td89LfsSoj3QpGRrQgxxSA0htqN4/https/media.tenor.com/2QNwq-cGrOMAAAPo/vir%25C5%25A1ila-dw-%25C5%25BE%25C4%2597k-saves.mp4`,
         });
     }
 }
