@@ -10,10 +10,11 @@
   "author": "ZygisP",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/rest": "^2.2.0",
+    "@discordjs/rest": "^2.0.0",
     "chalk": "^4.1.2",
     "discord-api-types": "^0.37.70",
-    "discord.js": "^14.14.1",
-    "dotenv": "^16.4.5"
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.2.0"
   }
 }
